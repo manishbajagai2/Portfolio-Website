@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="swipper.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Manish Bajagai</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"><h2>Portfo<span>lio.</span></h2></a>
+        
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>
+                <span class="nav__name">Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>
+                <span class="nav__name">About</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#learnings" class="nav__link">
+                <span
+                  class="nav__icon iconify"
+                  data-icon="ant-design:code-outlined"
+                ></span>
+                <span class="nav__name">Learnings</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#works" class="nav__link">
+                <span
+                  class="iconify nav__icon"
+                  data-icon="ic:baseline-work-outline"
+                ></span>
+                <span class="nav__name">Works</span>
+              </a>
+            </li>
+
+            <li class="nav__item testimonial">
+              <a href="#testimonials" class="nav__link">
+                <span class="iconify nav__icon" data-icon="uil:feedback"></span>
+                <span class="nav__name">Testimonials</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contacts" class="nav__link">
+                <i class="bx bx-envelope nav__icon"></i>
+                <span class="nav__name">Contacts</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <main>
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://github.com/manishbajagai2"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+              <a
+                href="https://leetcode.com/manish_doit/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <span class="iconify" data-icon="simple-icons:leetcode"></span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/manishbajagai/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="32"
+                    y="19"
+                    xlink:href="img/manish_bajagai.png"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <hl class="home__subtitle"
+                >Hello, I'am
+                <span
+                  ><h1 style="margin-top: 0.6rem">Manish Bajagai</h1></span
+                ></hl
+              >
+              <h3 style="margin-bottom: 1rem">Full Stack Web developer</h3>
+              <p class="home__description">
+                With a Bachelor's Degree in Tech, experienced developer in
+                creating web sites and applying curret level of knowledge, or
+                skills in producing quality work.
+              </p>
+              <div class="home__buttons">
+                <a
+                  target="_blank"
+                  href="pdf/manishCv.pdf"
+                  class="button button--ghost first"
+                  >Download CV</a
+                >
+                <a href="#about" class="button">About Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="container section section__height about" id="about">
+        <span class="section__subtitle">My Introduction</span>
+        <h2 class="section__title">About Me</h2>
+        <div class="about__container container grid">
+          <img src="img/aboutMePic.jpeg" alt="Me" class="about__img" />
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="uil uil-award"></i>
+                <h3 class="about__title">Experience</h3>
+                <span class="about__subtitle">6+ Months </span>
+              </div>
+
+              <div class="about__box">
+                <i class="uil uil-thumbs-up"></i>
+                <h3 class="about__title">Completed</h3>
+                <span class="about__subtitle">10+ Projects</span>
+              </div>
+
+              <div class="about__box">
+                <span class="iconify" data-icon="entypo:code"></span>
+                <h3 class="about__title">Code</h3>
+                <span class="about__subtitle">5000+ lines</span>
+              </div>
+            </div>
+
+            <p class="about__description">
+              Full Stack Web Developer, with months of real world experience, in
+              working across various projects with different tech stack.
+            </p>
+            <a href="#contacts" class="button button--flex"
+              >Contact Me &nbsp;
+              <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== LEARNINGS ===============-->
+      <section class="container section section__height skills" id="learnings">
+        <span class="section__subtitle">Skills and Qualifications</span>
+        <h2 class="section__title">My Learnings</h2>
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Tech Stack</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <span
+                    class="iconify skills__icon"
+                    data-icon="heroicons-solid:badge-check"
+                  ></span>
+                  HTML / CSS
+                </div>
+
+                <div class="skills__data">
+                  <span
+                    class="iconify skills__icon"
+                    data-icon="heroicons-solid:badge-check"
+                  ></span>
+                  MERN Stack
+                </div>
+                <div class="skills__data">
+                  <span
+                    class="iconify skills__icon"
+                    data-icon="heroicons-solid:badge-check"
+                  ></span>
+                  Kotlin
+                </div>
+                <div class="skills__data">
+                  <span
+                    class="iconify skills__icon"
+                    data-icon="heroicons-solid:badge-check"
+                  ></span>
+                  Android
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <span
+                    class="iconify skills__icon"
+                    data-icon="heroicons-solid:badge-check"
+                  ></span>
+                  JavaScript
+                </div>
+                <div class="skills__data">
+                  <span
+                    class="iconify skills__icon"
+                    data-icon="heroicons-solid:badge-check"
+                  ></span>
+                  Git
+                </div>
+                <div class="skills__data">
+                  <span
+                    class="iconify skills__icon"
+                    data-icon="heroicons-solid:badge-check"
+                  ></span>
+                  C++
+                </div>
+                <div class="skills__data">
+                  <span
+                    class="iconify skills__icon"
+                    data-icon="heroicons-solid:badge-check"
+                  ></span>
+                  Python
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <div class="qualification__tabs">
+              <div
+                class="qualification__button button--flex qualification__active"
+                data-target="#education"
+              >
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                Education
+              </div>
+
+              <div
+                class="qualification__button button--flex"
+                data-target="#work"
+              >
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                Work
+              </div>
+            </div>
+
+            <div class="qualification__sections qualification">
+              <div
+                class="qualification__active qualification__content"
+                data-content
+                id="education"
+              >
+                <!-- Qualification 1 -->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">
+                      Computer Science Enginnering
+                    </h3>
+                    <span class="qualification__subtitle"
+                      >Lovely Professional University</span
+                    >
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2018 - 2022
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+                <!-- Qualification 2 -->
+                <div class="qualification__data">
+                  <div></div>
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                  <div>
+                    <h3 class="qualification__title">
+                      Higher Secondary (Class XII)
+                    </h3>
+                    <span class="qualification__subtitle"
+                      >Medical Engineering Coaching Institute</span
+                    >
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2016 - 2018
+                    </div>
+                  </div>
+                </div>
+                <!-- Qualification 3 -->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">High School (Class X)</h3>
+                    <span class="qualification__subtitle"
+                      >Tiny Tots' Unique School</span
+                    >
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2015 - 2016
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="qualification__content" data-content id="work">
+                <!-- Qualification 1 -->
+                <div class="qualification__data">
+                  <div></div>
+                  <div>
+                    <span class="qualification__rounder"></span>
+                  </div>
+                  <div>
+                    <h3 class="qualification__title">
+                      Product Engineering Intern
+                    </h3>
+                    <span class="qualification__subtitle"
+                      >Pepcoding Education Private Limited</span
+                    >
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      2021 - Present
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WORKS ===============-->
+      <section class="work section section__height" id="works">
+        <span class="section__subtitle">My Projects</span>
+        <h2 class="section__title">Recent Works</h2>
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".web">Web</span>
+          <span class="work__item" data-filter=".mobile">Mobile</span>
+          <span class="work__item" data-filter=".python">Python</span>
+        </div>
+
+        <div class="work__container container grid">
+          <div class="work__card mix mobile">
+            <img src="img/Tapping.gif" alt="" class="work__img" />
+            <h3 class="work__title">Tapping Game</h3>
+            <span class="work__subtitle"
+              ><p>
+                User taps on the random valid balloon
+              </p></span
+            >
+            <a href="https://github.com/manishbajagai2/Tapping-Game" target="_blank" class="work__button"
+              >Demo and Code <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix web">
+            <img src="img/Skylark.gif" alt="" class="work__img" />
+            <h3 class="work__title">Skylark Intellectual Academia</h3>
+            <span class="work__subtitle"
+              ><p>An educational online platform</p></span
+            >
+            <a href="https://github.com/manishbajagai2/skylark-reloaded" target="_blank" class="work__button"
+              >Demo and Code <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix web">
+            <img src="img/NotesTaking.gif" alt="" class="work__img" />
+            <h3 class="work__title">Notes Taking Web App</h3>
+            <span class="work__subtitle"
+              ><p>An app to store data and perform CRUD operations</p></span
+            >
+            <a href="https://github.com/manishbajagai2/Notes-Taking-Web-App" target="_blank" class="work__button"
+              >Demo and Code <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix mobile">
+            <img src="img/TODO.gif" alt="" class="work__img" />
+            <h3 class="work__title">Todo List App</h3>
+            <span class="work__subtitle"
+              ><p>
+                Quickly keeps track of tasks at hand with additional features
+              </p></span
+            >
+            <a href="https://github.com/manishbajagai2/Android-To-Do-App-with-Kotlin" target="_blank" class="work__button"
+              >Demo  and Code <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+          <div class="work__card mix python">
+            <img src="img/Python.gif" alt="" class="work__img" />
+            <h3 class="work__title">AI's Common Sense</h3>
+            <span class="work__subtitle"
+              ><p>Text Summarizer and ability to answer logical questions</p></span
+            >
+            <a href="https://github.com/manishbajagai2/AI_Common_Sense-it-s-Features" target="_blank" class="work__button"
+              >Demo and Code <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== TESTIMONIALS ===============-->
+      <section class="container section section__height" id="testimonials">
+        <span class="section__subtitle">What people say about me</span>
+        <h2 class="section__title">Testimonials</h2>
+
+        <div class="containing">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonialBox">
+                  <img src="img/quote.png" alt="quotePic" class="quote" />
+                  <div class="content">
+                    <p>
+                      Passionate in writing code through the development of creative and innovative software. Enthusiastically tackles every assignment as he is directed. He is friendly and easy to get along with.
+                    </p>
+                    <div class="details">
+                      <div class="imgBx">
+                        <img src="img/adwait.jpeg" />
+                      </div>
+                      <h3>Adwait Verma <br /><span>Software Developer @ Vinove Software</span></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonialBox">
+                  <img src="img/quote.png" alt="quotePic" class="quote" />
+                  <div class="content">
+                    <p>
+                      Distinguished software developer with good
+                      knowledge of DSA and web development using latest technologies. Avid learner and an outstanding problem solver.
+                    </p>
+                    <div class="details">
+                      <div class="imgBx">
+                        <img src="img/rimonSharma.jpeg" />
+                      </div>
+                      <h3>
+                        Rimon Sarmah <br /><span
+                          >Software Engineer <br />@ Purchasing Power</span
+                        >
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonialBox">
+                  <img src="img/quote.png" alt="quotePic" class="quote" />
+                  <div class="content">
+                    <p>A good friend with a lot of enthusiasm and an unquenchable thirst for learning or trying out new things. Humble, smart, disciplined and always available to help.
+                    </p>
+                    <div class="details">
+                      <div class="imgBx">
+                        <img src="img/aneesh.jpeg" />
+                      </div>
+                      <h3>Aneesh Pavan Prodduturu <br /><span>Developer @ SYKE</span></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next changeColor"></div>
+          <div class="swiper-button-prev changeColor"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== CONTACTME ===============-->
+      <section class="container section section__height " id="contacts">
+        <span class="section__subtitle">Get in Touch</span>
+        <h2 class="section__title">Contacts</h2>
+        <span class="big-circle"></span>
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's have a chat</h3>
+            <div class="info">
+              <p>Contact Info :</p>
+              <div class="information">
+                <span class="iconify icon" data-icon="fa6-solid:map-location-dot"></span>
+                <p>1st M.R, Imphal West, Manipur 795004</p>
+              </div>
+              <div class="information">
+                <span class="iconify icon" data-icon="dashicons:email-alt"></span>
+                  <a href="mailto:manishbajagai4@gmail.com"
+                    >manishbajagai4@gmail.com</a
+                  >
+                </p>
+              </div>
+              <div class="information">
+                <span class="iconify icon" data-icon="jam:messenger"></span>
+                <p>
+                  <a href="http://m.me/manish.bajagai.9638"
+                    >manish.bajagai.9638</a
+                  >
+                </p>
+              </div>
+              <div class="information">
+                <span class="iconify icon" data-icon="fa-brands:whatsapp-square"></span>
+                <p><a href="http://wa.me/7085971749">+91 7085971749</a></p>
+              </div>
+            </div>
+
+            <div class="social-media">
+              <p>Connect with me at :</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/manish.bajagai.9638/">
+                  <i class="bx bxl-facebook-circle"></i>
+                </a>
+                <a href="https://twitter.com/Manishbajagai">
+                  <i class="bx bxl-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/manish_bajagai/">
+                  <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/manishbajagai/">
+                  <i class="bx bxl-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form action="https://formspree.io/f/mbjwayao"
+            method="POST" autocomplete="off">
+              <h3 class="title">Send me a message</h3>
+
+              <div class="input-container">
+                <input
+                  type="text"
+                  name="name"
+                  required="required"
+                  class="input"
+                />
+                <span>Full Name</span>
+              </div>
+              <div class="input-container">
+                <input
+                  type="text"
+                  name="email"
+                  required="required"
+                  class="input"
+                />
+                <span>Email Address</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea
+                  name="message"
+                  required="required"
+                  class="input"
+                ></textarea>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+        </div>
+        
+      </section>
+    </main>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="jsFiles/scrollreveal.min.js"></script>
+    <script src="jsFiles/mixitup.min.js"></script>
+    <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
+    <script src="jsFiles/main.js"></script>
+    <script src="jsFiles/swipper.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        effect: "coverflow",
+        initialSlide: 1,
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
+  </body>
+</html>
