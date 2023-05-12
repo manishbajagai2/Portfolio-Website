@@ -887,7 +887,7 @@ body.light-theme {
   }
 
   .skills__content {
-    padding: 2rem 4rem;
+    padding: 2rem;
   }
 
   .work__container {
@@ -1063,6 +1063,12 @@ body.light-theme {
   }
 }
 
+@media screen and (min-width: 1240px) {
+  .work__container {
+    grid-template-columns: repeat(3, max-content);
+  }
+}
+
 .form {
   width: 100%;
   max-width: 820px;
@@ -1198,6 +1204,7 @@ textarea:valid ~ span {
   color: var(--first-color);
   padding: 0.3rem 0 1rem 0;
 }
+
 
 .information {
   display: flex;

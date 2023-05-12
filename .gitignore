@@ -1,0 +1,13 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+.sass-cache
+.tmp
+.rvmrc
+.trashes
+*~
+
+
+.vscode
+.vscode-test
